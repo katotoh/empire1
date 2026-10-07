@@ -34,7 +34,7 @@ jobs:
       - name: Upload Empire Kings website
         uses: actions/upload-pages-artifact@v5
         with:
-          path: ./dist
+          path: ./Empire_Kings_Barbershop_GitHub/dist
 
       - name: Deploy to GitHub Pages
         id: deployment
